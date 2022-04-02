@@ -10,22 +10,20 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/f9708a425ac40e01fa399.jpg",
-        caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 🎶 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 = [𝗦𝗺𝗼𝗞𝗲𝗿'𝘅𝗗 🚬❤️](https://t.me/sanki_owner)
-
-𝐂𝐫𝐞𝐚𝐭𝐨𝐫 :- [✨ 𝗠𝗿'𝗦𝗺𝗢𝗸𝗲𝗿 🚬 💜](https://t.me/sanki_owner)
-𝐒𝐮𝐩𝐩𝐨𝐫𝐭 :- [✨ 𝗲𝗦𝗽𝗼𝗿𝘁 𝗕𝗼𝗧𝘀 ❤️🎸](https://t.me/Esport_BOTs)
-𝐃𝐢𝐬𝐜𝐮𝐬𝐬 :- [✨  𝗲𝗦𝗽𝗼𝗿𝘁 𝗖𝗹𝗮𝗻 🎧](https://t.me/EsportClan)
-𝐒𝐨𝐮𝐫𝐜𝐞  :- [✨  𝗖𝗹𝗶𝗰𝗸 ☑️ 𝗥𝗲𝗽𝗼 🌍](https://t.me/sanki_owner)
-𝐂𝐨𝐦𝐦𝐚𝐧𝐝 :- [✨𝗖𝗹𝗶𝗰𝗸 ☑️ 𝗡𝗼𝘄 🚩](https://telegra.ph/%EA%9C%B1%E1%B4%8D%E1%B4%8F%E1%B4%8B%E1%B4%87%CA%80-%E1%B4%8D%E1%B4%9C%EA%9C%B1%C9%AA%E1%B4%84-%CA%99%E1%B4%8F%E1%B4%9B-%E1%B4%84%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85%EA%9C%B1-08-29)
-𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 :- [✨ 𝗝𝗼𝗶𝗻 ❤️🥀](https://t.me/Smoker_Feelings)
-
-𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [𝗠𝗿'𝗦𝗺𝗢𝗸𝗲𝗿 🚬 ❤️](https://t.me/sanki_owner)**""",
+        photo=f"https://te.legra.ph/file/ee0aa83dc223b8bf6da02.jpg",
+        caption=f"""*🎸✨✨𝘽𝙀𝙎𝙏 🎧𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏🎧 𝘽𝙔 𝙍𝙊𝙔𝘼𝙇𝘽𝙊𝙔_𝙓𝘿 𝙃𝙄𝙂𝙃 𝙌𝙐𝘼𝙇𝙄𝙏𝙔 𝙈𝙐𝙎𝙄𝘾🎶🎶 𝙒𝙄𝙏𝙃 𝙉𝙊 𝙇𝘼𝙂 && 𝙉𝙚𝙬 𝙂𝙀𝙉𝙀𝙍𝘼𝙏𝙄𝙊𝙉👨‍💻 𝘼𝘿𝙑𝘼𝙉𝘾𝙀𝘿 𝘽𝙊𝙏 𝙒𝙞𝙩𝙝 𝙢𝙖𝙣𝙮 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨✨✨🎸
+       ⭕𝙎𝙪𝙥𝙥𝙤𝙧𝙩:-  @ROYALUBOT_SUPPORT
+       ⭕𝘾𝙍𝙀𝘼𝙏𝙊𝙍:- @ROYALBOY_XD
+       ⭕𝘾𝙝𝙖𝙣𝙣𝙚𝙡:- @ROYALYSERBOT
+       ⭕𝙊𝙒𝙉𝙀𝙍:- @ROYALBOY_XD
+       ⭕𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:- @KartiK_KinG01
+🌟👨‍🎤𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙏𝙀𝘼𝙈 𝙉𝙊𝙒 𝙁𝙊𝙍 𝘾𝙃𝘼𝙏𝙏𝙄𝙉𝙂💌 𝙅𝙊𝙄𝙉 - @ved_maitrich007
+   𝙄𝙛 𝙔𝙤𝙪 𝙣𝙚𝙚𝙙 𝙖𝙣𝙮 𝙝𝙚𝙡𝙥 𝙩𝙝𝙚𝙣 𝙠𝙞𝙣𝙙𝙡𝙮 𝙘𝙤𝙣𝙩𝙖𝙘𝙩 𝙩𝙤 [👨‍💻𝙇𝙀𝙂𝙀𝙉𝘿👨‍💻](t.me/KartiK_KinG01)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/smoker_robot?startgroup=true")
+                        "➕ ❰ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/KING_OTP_BOT?startgroup=true")
                 ]
                 
            ]
@@ -42,7 +40,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐥𝐢𝐜𝐤 ☑️  𝐑𝐞𝐩𝐨 🌍 💞", url=f"https://github.com/EsportMusicX/SmokerMusicX")
+                        "𝙁𝙊𝙍 𝙍𝙀𝙋𝙊 Join - ", url=f"https://t.me/ROYALYSERBOT")
                 ]
             ]
         ),
